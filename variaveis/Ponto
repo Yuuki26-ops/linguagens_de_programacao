@@ -1,0 +1,28 @@
+public class Main {
+public static void main(String[] args){
+    String nome = "Savalo";
+    String sobrenome = "Horse";
+    int idade = 85;
+    double altura = 1.80;
+    boolean empregado = true;
+    String telefone = "15 99250-8430";
+    String endereco = "rua 11 de agosto";
+    String cep = "245677-09";
+    String cidade = "Tatui";
+    String uf = "- SP";
+    double salariobruto = 2300;
+    double horaExtra = 500.00;
+
+    System.out.println("Nome do aluno: " + nome + " " + sobrenome);
+    System.out.println("idade: " + idade);
+    System.out.println("altura: " + altura);
+    System.out.println("telefone: " + telefone);
+    System.out.println("localizacao: " + endereco +" " + "cep" + cep);
+    System.out.println("Cidade e Estado: " + cidade + " " + uf);
+    System.out.println("salario Bruto: " + salariobruto);
+    System.out.println("Hora Extra: " + horaExtra);
+
+
+}
+
+}
