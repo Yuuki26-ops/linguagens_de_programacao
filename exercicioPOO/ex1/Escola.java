@@ -14,7 +14,7 @@ public class Escola {
             System.out.println("E-mail: " + estudante.getEmail());
             System.out.println("Inteligente: " + estudante.getInteligente());
             System.out.println("Nível de Sono: " + estudante.getNivelDeSono());
-            System.out.println("Piscando Lento: " + estudante.getPiscandoLento);
+            System.out.println("Piscando Lento: " + estudante.getPiscandoLento());
             estudante.dormirNaAula();
             estudante.fingirEstudar();
         }
@@ -23,7 +23,7 @@ public class Escola {
             System.out.println("Professor: " + prof.getNome());
             System.out.println("Quantidade de Café: " + prof.getQuantidadeCafe());
             System.out.println("Humor: " + prof.getHumor());
-            System.out.println("Nível de Paciência: " + prof.getNivelDeSono());
+            System.out.println("Nível de Paciência: " + prof.getNivelPaciencia());
             System.out.println("Usa data show: " + prof.getUsaDataShow());
             System.out.println("Frase Favorita do Professor: " + prof.getFraseFavorita());
         }
